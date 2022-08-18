@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Mind Reader</title>
+		<link href=mr.css type=text/css rel=stylesheet>
+		<script type=text/javascript src=mr.js></script>
+		
+	</head>
+
+
+	<body style=background-color:white>
+
+		<h1 id=title style=text-align:center>Mind Reader</h1>
+		<h5 id=developer style=text-align:center>Developed By: SHASWAT</h5>
+        <h7 id=inspred>Inspired by <i>The Flash Mind Reader : Andy Naughton</i></h7>
+        <hr>
+
+        <table style=width:100%>
+			<tr>
+			
+                <td width="20%">
+                    <section class="stage">
+                        <figure class="ball" onclick=showSymbol()>
+                            <span class="shadow"></span>
+                            <span id="symbol">&hearts;</span>
+                        </figure>
+                      </section>
+                
+                </td>
+			
+                <td width=80% id="numberTable">
+			
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="100%">
+                    <br> <br>
+                    <p style="font-size: larger">
+                        Choose any two digit number, add together both digits and then <br>
+                        subtract the total from your original number.<sup>*</sup><br><br>
+                        When you have the final number look it up on the chart <br>
+                        and find the relevant symbol. Concentrate on the symbol <br>
+                        and when you have it clearly in your mind click on the <br>
+                        crystal ball and it will show you the symbol you are thinking of... <br>
+                    </p>
+
+                    <button type="button" id=resetBtn onclick=resetPage()>Try Again</button>
+
+    
+                    <p style="font-size: smaller">
+                        For example if you choose 23: 2+3=5. 23 minus 5 will give you the answer.
+                    </p>
+                </td>
+                
+            </tr>
+	
+		</table>
+    
+    </body>
+
+</html>
