@@ -66,6 +66,12 @@ z-index: -1;
     100% { opacity: 1; }
 }
 
+@-webkit-keyframes fadeIn {
+    0% { -webkit-opacity: 0; }
+    100% { -webkit-opacity: 1; }
+}
+
+
 /* Number Table */
 
 #numberTable {
